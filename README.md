@@ -22,11 +22,11 @@ This repository serves as a ready-to-use template for Laravel 11 projects, speci
 
 1. Wait for the setup.sh to run. Ctrl + Shift + P type `Codespaces: View Creation Log` to see the progress.
 
-1. start the Docker containers with Sail: `sail up` (maybe you need to run `source ~/.bashrc`)
+1. Start the Docker containers with Sail: `sail up` (maybe you need to run `source ~/.bashrc` or simply open a new terminal)
 
 1. Run in a new terminal the database migration `sail artisan migrate`
 
-1. That's it.
+1. Optional run `sail npx mix watch` for laravel mix
 
 ### Local Development with Laravel Sail
 
@@ -36,7 +36,7 @@ For local development using Laravel Sail, follow these steps:
 
 2. Run the `./setup.sh`
 
-3. Start the Docker containers with Laravel Sail: ./vendor/bin/sail up
+3. Start the Docker containers with Laravel Sail: `./vendor/bin/sail up`
 
 ### Common Laravel Terminal Commands
 
