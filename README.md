@@ -60,7 +60,7 @@ For local development using Laravel Sail, follow these steps:
 
 
 ## Customization
-Feel free to customize this template to suit your specific project requirements. You can add additional dependencies, modify configuration files liek the setup.sh, or integrate other services as needed.
+Feel free to customize this template to suit your specific project requirements. You can add additional dependencies, modify configuration files like the setup.sh, or integrate other services as needed.
 
 ## Feedback and Contributions
 
