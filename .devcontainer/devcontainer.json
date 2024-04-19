@@ -1,0 +1,11 @@
+{
+    "name": "laravel-11-container",
+    "image": "mcr.microsoft.com/devcontainers/php:1-8.3-bullseye",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {
+            "version": "latest"
+        }
+    },
+    "postCreateCommand": "bash ./setup.sh",
+    "postStartCommand": "echo alias sail=\\'vendor/bin/sail\\' >> ~/.bashrc && . ~/.bashrc"
+}
