@@ -68,6 +68,9 @@ I welcome feedback and contributions from you to improve this template. If you h
 
 Let's collaborate to make this template even more useful!
 
+## Feedback you said?
+
+I didn't find out, how to use Vite with Hot Module Replacement (HMR) in GitHub Codespaces with its port-forwarding and port-urls (https://CODESPACENAME-PORT.app.github.dev). Let me know about it :*
 
 ## From <a href="https://laravel.com" target="_blank">Laravel</a>:
 
